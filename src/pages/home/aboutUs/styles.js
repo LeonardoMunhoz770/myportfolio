@@ -72,6 +72,9 @@ export const Description = styled.p`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 653px) {
+    height: 100%;
+  }
 `;
 
 export const LineTrhee = styled.img`
