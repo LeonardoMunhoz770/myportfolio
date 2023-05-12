@@ -38,8 +38,9 @@ const Header = () => {
                 Serviços
               </Services>
             </Sections>
-            <Sections>Sobre Mim</Sections>
-            <Sections>Skills</Sections>
+            <Sections href="#about" onClick={handleNavClick}>
+              Sobre Mim
+            </Sections>
             <Sections>Portifólio</Sections>
             <Sections>Contato</Sections>
           </List>

@@ -9,7 +9,7 @@ export const Container = styled.div`
   justify-content: space-around;
   align-items: center;
   height: 500px;
-  margin-bottom: 250px;
+  margin-bottom: 50px;
 `;
 
 export const Description = styled.section`
