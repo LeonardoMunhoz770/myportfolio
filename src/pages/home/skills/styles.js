@@ -121,4 +121,5 @@ export const Description = styled.p`
   background-color: #2b2d41;
   padding: 0px 20px;
   font-size: 14px;
+  line-height: 15px;
 `;
