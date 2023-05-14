@@ -10,17 +10,25 @@ import {
   ContentDescription,
   Description,
   LineTrhee,
+  Curriculum,
 } from "./styles";
 
 import LineTree from "../../../assets/lineThree.webp";
+import Button from "../../../components/button";
+import { useState } from "react";
 
 const AboutUs = () => {
+  const urlCV =
+    "https://drive.google.com/u/0/uc?id=1e_IddnwyjyipuCORN9isKWdpWZ5_B1xh&export=download";
+
+  const [download, setDownload] = useState("");
+
   return (
     <Container id="about">
       <Content>
         <ContentTitle>
           <Title>Sobre Mim</Title>
-          <Subtitle>Leonardo Munhoz</Subtitle>
+          <Subtitle>Resumo</Subtitle>
           <Border></Border>
         </ContentTitle>
         <ContainerAboutUs>
@@ -38,8 +46,20 @@ const AboutUs = () => {
               desenvolvimento front-end. Estou entusiasmado com as
               possibilidades que essa área oferece e estou determinado a me
               tornar um profissional competente e inovador nesse campo.
+              <Button
+                width={150}
+                onClick={() => {
+                  setDownload(urlCV);
+                }}
+              >
+                Download CV
+                <Curriculum src={download}></Curriculum>
+              </Button>
             </Description>
-            <LineTrhee src={LineTree} />
+            <LineTrhee
+              src={LineTree}
+              alt="Icone com 3 esferas e a numero 3 preenchida."
+            />
           </ContentDescription>
         </ContainerAboutUs>
       </Content>

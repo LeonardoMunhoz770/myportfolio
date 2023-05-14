@@ -2,12 +2,15 @@ import styled from "styled-components";
 
 export const HeaderPage = styled.header`
   width: 100%;
-  height: 120px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: #212336;
+  position: fixed;
+  top: 0;
+  left: 0;
 `;
 
 export const Container = styled.div`
@@ -37,6 +40,7 @@ export const ContentLogo = styled.figure`
   @media (max-width: 568px) {
     display: none;
   }
+  background-color: #212336;
 `;
 
 export const Logo = styled.img`
@@ -53,7 +57,7 @@ export const List = styled.ul`
   gap: 20px;
   color: white;
   background-color: #212336;
-  font-size: 20px;
+  font-size: 15px;
   @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
   font-family: "Roboto", sans-serif;
   @media (max-width: 670px) {
@@ -72,9 +76,18 @@ export const Sections = styled.li`
 export const Home = styled.a`
   color: white;
   text-decoration: none;
+  background-color: #212336;
 `;
 
 export const Services = styled.a`
   color: white;
   text-decoration: none;
+  background-color: #212336;
+`;
+
+export const Title = styled.h1`
+  background-color: #212336;
+  color: white;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  font-family: "Roboto", sans-serif;
 `;
