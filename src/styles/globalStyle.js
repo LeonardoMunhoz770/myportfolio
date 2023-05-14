@@ -21,6 +21,8 @@ export default createGlobalStyle`
         font: inherit;
         vertical-align: baseline;
         background-color: #23263A;
+        scrollbar-width: thin;          /* "auto" or "thin" */
+        scrollbar-color: blue orange;
     }
     article, aside, details, figcaption, figure, 
     footer, header, hgroup, menu, nav, section {
@@ -28,6 +30,19 @@ export default createGlobalStyle`
     }
     body {
         line-height: 1;
+    }
+
+    body::-webkit-scrollbar {
+     width: 9px;              
+    }
+
+    body::-webkit-scrollbar-track {
+        background: #716C89;        
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: #545167;    
+        border-radius: 5px;       
     }
     ol, ul {
         list-style: none;
@@ -52,5 +67,6 @@ export default createGlobalStyle`
         font-style: normal;
         font-display: auto;
       }
-
+      
+    
 `;

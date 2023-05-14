@@ -26,7 +26,10 @@ const Apresentation = () => {
           </Button>
         </ContentText>
         <OneSection>
-          <ImageSection src={lineOne} />
+          <ImageSection
+            src={lineOne}
+            alt="Icone com 3 esferas e a numero 1 preenchida."
+          />
         </OneSection>
       </Description>
     </Container>

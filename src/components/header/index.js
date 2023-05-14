@@ -3,15 +3,14 @@ import {
   HeaderPage,
   Container,
   ContentLogo,
-  Logo,
   Navigation,
   List,
   Sections,
   Home,
   Services,
+  Title,
 } from "./styles";
 
-import logoLeo from "../../assets/logoLeoDev.png";
 const Header = () => {
   const handleNavClick = (event) => {
     event.preventDefault();
@@ -24,7 +23,7 @@ const Header = () => {
     <HeaderPage>
       <Container>
         <ContentLogo>
-          <Logo src={logoLeo} />
+          <Title>Leonardo Munhoz</Title>
         </ContentLogo>
         <Navigation>
           <List>
@@ -41,7 +40,9 @@ const Header = () => {
             <Sections href="#about" onClick={handleNavClick}>
               Sobre Mim
             </Sections>
-            <Sections>Portifólio</Sections>
+            <Sections href="#portifolio" onClick={handleNavClick}>
+              Portifólio
+            </Sections>
             <Sections>Contato</Sections>
           </List>
         </Navigation>

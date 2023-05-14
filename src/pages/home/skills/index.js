@@ -103,7 +103,10 @@ const Skills = () => {
               </Description>
             </Quality>
           </QualificationsWrapper>
-          <LineTwo src={ImageLineOne} />
+          <LineTwo
+            src={ImageLineOne}
+            alt="Icone com 3 esferas e a numero 2 preenchida."
+          />
         </Qualifications>
       </Content>
     </Container>
