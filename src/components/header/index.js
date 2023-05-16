@@ -43,7 +43,9 @@ const Header = () => {
             <Sections href="#portifolio" onClick={handleNavClick}>
               Portifólio
             </Sections>
-            <Sections>Contato</Sections>
+            <Sections href="#contact" onClick={handleNavClick}>
+              Contato
+            </Sections>
           </List>
         </Navigation>
       </Container>
