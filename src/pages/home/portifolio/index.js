@@ -8,8 +8,8 @@ import {
   Border,
 } from "./styles";
 import Projects from "../../../components/projects";
-import imageBegrato from "../../../assets/begratoLp.webp";
-import imageOrganograma from "../../../assets/vava.webp";
+import imageBegrato from "../../../assets/begreatoLp.webp";
+import imageOrganograma from "../../../assets/valorant.webp";
 import imageMunhozCompany from "../../../assets/munhozCompany.webp";
 
 const Portifolio = () => {
