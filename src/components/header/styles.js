@@ -40,6 +40,7 @@ export const ContentLogo = styled.figure`
   @media (max-width: 568px) {
     display: none;
   }
+
   background-color: ${({ theme }) => theme.colors.headerBackground};
 `;
 
@@ -90,4 +91,5 @@ export const Title = styled.h1`
   color: ${({ theme }) => theme.colors.title};
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
   font-family: "Poppins", sans-serif;
+
 `;

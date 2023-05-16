@@ -18,7 +18,6 @@ const Projects = ({
   url = "",
 }) => {
   const theme = useTheme();
-
   return (
     <Container>
       <ContentImageProject>
