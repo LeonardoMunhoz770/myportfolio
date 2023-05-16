@@ -24,8 +24,11 @@ import {
 } from "react-icons/ai";
 
 import { BsPhoneFill, BsWrench, BsServer } from "react-icons/bs";
+import { useTheme } from "styled-components";
 
 const Skills = () => {
+  const theme = useTheme();
+
   return (
     <Container id="services">
       <Content>
@@ -38,7 +41,7 @@ const Skills = () => {
           <QualificationsWrapper>
             <Quality>
               <ContentFigure>
-                <AiFillGithub color="#277ac0" size={50} />
+                <AiFillGithub color={theme.colors.secondary} size={50} />
               </ContentFigure>
               <TitleQuality>Versionamento de Git</TitleQuality>
               <Description>
@@ -50,7 +53,7 @@ const Skills = () => {
             </Quality>
             <Quality>
               <ContentFigure>
-                <AiOutlineGlobal color="#277ac0" size={50} />
+                <AiOutlineGlobal color={theme.colors.secondary} size={50} />
               </ContentFigure>
               <TitleQuality>Desenvolvimento Web</TitleQuality>
               <Description>
@@ -61,7 +64,7 @@ const Skills = () => {
             </Quality>
             <Quality>
               <ContentFigure>
-                <BsPhoneFill color="#277ac0" size={50} />
+                <BsPhoneFill color={theme.colors.secondary} size={50} />
               </ContentFigure>
               <TitleQuality>Desenvolvimento Mobile</TitleQuality>
               <Description>
@@ -72,7 +75,7 @@ const Skills = () => {
             </Quality>
             <Quality>
               <ContentFigure>
-                <BsWrench color="#277ac0" size={50} />
+                <BsWrench color={theme.colors.secondary} size={50} />
               </ContentFigure>
               <TitleQuality>Manutenção Software/Hardware</TitleQuality>
               <Description>
@@ -82,7 +85,7 @@ const Skills = () => {
             </Quality>
             <Quality>
               <ContentFigure>
-                <BsServer color="#277ac0" size={50} />
+                <BsServer color={theme.colors.secondary} size={50} />
               </ContentFigure>
               <TitleQuality>Servidor</TitleQuality>
               <Description>
@@ -93,7 +96,7 @@ const Skills = () => {
             </Quality>
             <Quality>
               <ContentFigure>
-                <AiOutlineConsoleSql color="#277ac0" size={50} />
+                <AiOutlineConsoleSql color={theme.colors.secondary} size={50} />
               </ContentFigure>
               <TitleQuality>Noções gerais de uso</TitleQuality>
               <Description>

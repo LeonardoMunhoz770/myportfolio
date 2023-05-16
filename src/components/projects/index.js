@@ -9,6 +9,7 @@ import {
 } from "./styles";
 
 import Button from "../button";
+import { useTheme } from "styled-components";
 
 const Projects = ({
   Descript = "lorem opsum",
@@ -16,6 +17,8 @@ const Projects = ({
   TitleProject = "lorem opsum",
   url = "",
 }) => {
+  const theme = useTheme();
+
   return (
     <Container>
       <ContentImageProject>
@@ -29,7 +32,7 @@ const Projects = ({
             href={url}
             style={{
               backgroundColor: "transparent",
-              color: "white",
+              color: theme.colors.title,
               textDecoration: "none",
             }}
             target="__blank"

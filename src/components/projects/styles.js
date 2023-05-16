@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-  background-color: #2b2d41;
+  background-color: ${({ theme }) => theme.colors.primary};
   justify-content: space-between;
   align-items: center;
   @media (max-width: 1341px) {
@@ -23,7 +23,7 @@ export const ContentImageProject = styled.figure`
 `;
 
 export const ContentInformationsProject = styled.div`
-  background-color: #2b2d41;
+  background-color: ${({ theme }) => theme.colors.primary};
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -40,9 +40,9 @@ export const ContentInformationsProject = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: white;
+  color: ${({ theme }) => theme.colors.title};
   width: 50%;
-  background-color: #2b2d41;
+  background-color: ${({ theme }) => theme.colors.primary};
   justify-content: center;
   align-items: center;
   display: flex;
@@ -57,11 +57,11 @@ export const Title = styled.h1`
 `;
 
 export const Description = styled.p`
-  color: white;
+  color: ${({ theme }) => theme.colors.title};
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: #2b2d41;
+  background-color: ${({ theme }) => theme.colors.primary};
   font-family: "Abel", sans-serif;
   @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
   font-size: 15px;
