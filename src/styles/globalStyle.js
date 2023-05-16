@@ -20,7 +20,7 @@ export default createGlobalStyle`
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
-        background-color: #23263A;
+        background-color: ${({ theme }) => theme.colors.backgroundGlobal};
         scrollbar-width: thin;          /* "auto" or "thin" */
         scrollbar-color: blue orange;
     }

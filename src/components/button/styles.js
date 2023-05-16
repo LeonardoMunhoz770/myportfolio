@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const ButtonContainer = styled.button`
-  color: white;
+  color: ${({ theme }) => theme.colors.title};
   font-size: 15px;
-  background-color: #277ac0;
+  background-color: ${({ theme }) => theme.colors.secondary};
   border: none;
   border-radius: 2px;
   cursor: pointer;

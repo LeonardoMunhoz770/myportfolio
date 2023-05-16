@@ -51,9 +51,9 @@ export const ContentText = styled.div`
 `;
 
 export const Title = styled.h1`
-  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  font-family: "Roboto", sans-serif;
-  color: white;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  font-family: "Poppins", sans-serif;
+  color: ${({ theme }) => theme.colors.title};
   font-size: 50px;
   max-width: 350px;
   width: 100%;
@@ -68,9 +68,9 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  font-family: "Roboto", sans-serif;
-  color: white;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  font-family: "Poppins", sans-serif;
+  color: ${({ theme }) => theme.colors.title};
   width: 450px;
   font-size: 17px;
   margin-bottom: 10px;

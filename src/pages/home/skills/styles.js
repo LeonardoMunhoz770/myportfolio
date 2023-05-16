@@ -29,21 +29,21 @@ export const ContentTitle = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: white;
+  color: ${({ theme }) => theme.colors.title};
   font-size: 25px;
-  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  font-family: "Roboto", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  font-family: "Poppins", sans-serif;
 `;
 
 export const Subtitle = styled.p`
-  color: #277ac0;
+  color: ${({ theme }) => theme.colors.secondary};
   font-size: 30px;
-  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  font-family: "Roboto", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  font-family: "Poppins", sans-serif;
 `;
 
 export const Border = styled.div`
-  background-color: #277ac0;
+  background-color: ${({ theme }) => theme.colors.secondary};
   width: 100px;
   height: 5px;
 `;
@@ -65,7 +65,7 @@ export const QualificationsWrapper = styled.div`
 `;
 
 export const Quality = styled.div`
-  background-color: #2b2d41;
+  background-color: ${({ theme }) => theme.colors.primary};
   width: calc(33.33% - 20px);
   height: 250px;
   border-radius: 2px;
@@ -99,26 +99,26 @@ export const LineTwo = styled.img`
 
 export const ContentFigure = styled.figure`
   margin-top: 20px;
-  background-color: #2b2d41;
+  background-color: ${({ theme }) => theme.colors.primary};
   padding: 0px 20px;
 `;
 
 export const ImageQuality = styled.img``;
 
 export const TitleQuality = styled.h1`
-  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  font-family: "Roboto", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color: white;
-  background-color: #2b2d41;
+  color: ${({ theme }) => theme.colors.title};
+  background-color: ${({ theme }) => theme.colors.primary};
   padding: 0px 20px;
 `;
 
 export const Description = styled.p`
-  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  font-family: "Roboto", sans-serif;
-  color: white;
-  background-color: #2b2d41;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  font-family: "Poppins", sans-serif;
+  color: ${({ theme }) => theme.colors.title};
+  background-color: ${({ theme }) => theme.colors.primary};
   padding: 0px 20px;
   font-size: 14px;
   line-height: 15px;

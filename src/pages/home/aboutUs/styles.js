@@ -28,21 +28,21 @@ export const ContentTitle = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: white;
+  color: ${({ theme }) => theme.colors.title};
   font-size: 25px;
-  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  font-family: "Roboto", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  font-family: "Poppins", sans-serif;
 `;
 
 export const Subtitle = styled.p`
-  color: #277ac0;
+  color: ${({ theme }) => theme.colors.secondary};
   font-size: 30px;
-  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  font-family: "Roboto", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  font-family: "Poppins", sans-serif;
 `;
 
 export const Border = styled.div`
-  background-color: #277ac0;
+  background-color: ${({ theme }) => theme.colors.secondary};
   width: 100px;
   height: 5px;
 `;
@@ -62,11 +62,11 @@ export const ContentDescription = styled.div`
 `;
 
 export const Description = styled.p`
-  font-family: "Roboto", sans-serif;
-  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-  color: white;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+  font-family: "Poppins", sans-serif;
+  color: ${({ theme }) => theme.colors.title};
   line-height: 20px;
-  background-color: #2b2d41;
+  background-color: ${({ theme }) => theme.colors.primary};
   padding: 20px;
   height: 200px;
   display: flex;
