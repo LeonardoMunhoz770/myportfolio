@@ -97,9 +97,8 @@ const Skills = () => {
               </ContentFigure>
               <TitleQuality>Noções gerais de uso</TitleQuality>
               <Description>
-                Tenho um pouco de noção de banco de dados com SQL e de Back-end
-                com Node.js, meu tcc foi desenvolvido usando todas essas
-                tecnologias
+                Possuo conhecimentos com base nos fundamentos de node como
+                backend e sql para construção de banco de dados relacionais
               </Description>
             </Quality>
           </QualificationsWrapper>

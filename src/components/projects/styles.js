@@ -12,6 +12,10 @@ export const Container = styled.div`
   @media (max-width: 1341px) {
     flex-direction: column;
   }
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+
 `;
 
 export const ContentImageProject = styled.figure`
