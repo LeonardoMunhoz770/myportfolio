@@ -74,6 +74,9 @@ export const List = styled.ul`
   @media (max-width: 438px) {
     font-size: 10px;
   }
+  @media (max-width: 484px) {
+    gap: 15px;
+  }
 `;
 
 export const Sections = styled.li`
@@ -82,6 +85,9 @@ export const Sections = styled.li`
   cursor: pointer;
   @media (max-width: 710px) {
     font-size: 15px;
+  }
+  @media (max-width: 484px) {
+    font-size: 12px;
   }
 `;
 

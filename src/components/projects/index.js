@@ -16,13 +16,14 @@ const Projects = ({
   ImageProject,
   TitleProject = "lorem opsum",
   url = "",
+  alt = "",
 }) => {
   const theme = useTheme();
 
   return (
     <Container>
       <ContentImageProject>
-        <ProjectImage src={ImageProject} />
+        <ProjectImage src={ImageProject} alt={alt} />
       </ContentImageProject>
       <ContentInformationsProject>
         <Title>{TitleProject}</Title>
@@ -34,6 +35,9 @@ const Projects = ({
               backgroundColor: "transparent",
               color: theme.colors.titleButton,
               textDecoration: "none",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
             }}
             target="__blank"
           >

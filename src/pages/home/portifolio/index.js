@@ -20,6 +20,7 @@ const Portifolio = () => {
       imageProject: imageBegrato,
       titleProject: "Begrato Landing Page",
       url: "https://www.begrato.com/",
+      alt: "pagina de um app de fotos e videos inteligentes",
     },
     {
       description:
@@ -27,6 +28,7 @@ const Portifolio = () => {
       imageProject: imageOrganograma,
       titleProject: "Organograma Valorant",
       url: "https://organograma-valorant.vercel.app/",
+      alt: "pagina de um organograma com o tema do jogo valorant",
     },
     {
       description:
@@ -34,6 +36,7 @@ const Portifolio = () => {
       imageProject: imageMunhozCompany,
       titleProject: "MunhozCompany Firebase",
       url: "https://munhoz-project.vercel.app/",
+      alt: "tela de login e senha com o tema MunhozCompany",
     },
   ];
 
@@ -52,6 +55,7 @@ const Portifolio = () => {
             Descript={project.description}
             url={project.url}
             key={index}
+            alt={project.alt}
           />
         ))}
       </Content>
