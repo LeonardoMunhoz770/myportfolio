@@ -4,15 +4,19 @@ import Apresentation from "./apresentation";
 import Skills from "./skills";
 import AboutUs from "./aboutUs";
 import Portifolio from "./portifolio";
+import Contact from "./contact";
+import Footer from "../../components/footer";
 
-const Home = () => {
+const Home = ({ toggleTheme }) => {
   return (
     <>
-      <Header />
+      <Header toggleTheme={toggleTheme} />
       <Apresentation />
       <Skills />
       <AboutUs />
       <Portifolio />
+      <Contact />
+      <Footer />
     </>
   );
 };

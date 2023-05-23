@@ -9,17 +9,21 @@ import {
 } from "./styles";
 
 import Button from "../button";
+import { useTheme } from "styled-components";
 
 const Projects = ({
   Descript = "lorem opsum",
   ImageProject,
   TitleProject = "lorem opsum",
   url = "",
+  alt = "",
 }) => {
+  const theme = useTheme();
+
   return (
     <Container>
       <ContentImageProject>
-        <ProjectImage src={ImageProject} />
+        <ProjectImage src={ImageProject} alt={alt} />
       </ContentImageProject>
       <ContentInformationsProject>
         <Title>{TitleProject}</Title>
@@ -29,12 +33,15 @@ const Projects = ({
             href={url}
             style={{
               backgroundColor: "transparent",
-              color: "white",
+              color: theme.colors.titleButton,
               textDecoration: "none",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
             }}
             target="__blank"
           >
-            Veja você mesmo!
+            Acesse
           </a>
         </Button>
       </ContentInformationsProject>

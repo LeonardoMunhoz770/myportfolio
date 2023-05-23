@@ -20,7 +20,7 @@ export default createGlobalStyle`
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
-        background-color: #23263A;
+        background-color: ${({ theme }) => theme.colors.backgroundGlobal};
         scrollbar-width: thin;          /* "auto" or "thin" */
         scrollbar-color: blue orange;
     }
@@ -37,11 +37,11 @@ export default createGlobalStyle`
     }
 
     body::-webkit-scrollbar-track {
-        background: #716C89;        
+        background: ${({ theme }) => theme.colors.backgroundScroll};        
     }
 
     body::-webkit-scrollbar-thumb {
-        background-color: #545167;    
+        background-color: ${({ theme }) => theme.colors.scroll};    
         border-radius: 5px;       
     }
     ol, ul {
