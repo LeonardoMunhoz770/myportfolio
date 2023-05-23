@@ -19,7 +19,7 @@ import { useState } from "react";
 
 const AboutUs = () => {
   const urlCV =
-    "https://drive.google.com/u/0/uc?id=1e_IddnwyjyipuCORN9isKWdpWZ5_B1xh&export=download";
+    "https://drive.google.com/u/0/uc?id=1jtWxje9siQvHNu0NyA4XU-6o9DvGsQ9s&export=download";
 
   const [download, setDownload] = useState("");
 
