@@ -7,7 +7,7 @@ export const HeaderPage = styled.header`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.headerBackground};
+  background-color: ${({ theme }) => theme.colors.headerAndfooter};
   position: fixed;
   top: 0;
   left: 0;
@@ -29,7 +29,7 @@ export const Container = styled.div`
     margin: 0px 0px;
     justify-content: space-around;
   }
-  background-color: ${({ theme }) => theme.colors.headerBackground};
+  background-color: ${({ theme }) => theme.colors.headerAndfooter};
 `;
 
 export const ContentLogo = styled.figure`
@@ -40,23 +40,31 @@ export const ContentLogo = styled.figure`
   @media (max-width: 568px) {
     display: none;
   }
-  background-color: ${({ theme }) => theme.colors.headerBackground};
+  background-color: ${({ theme }) => theme.colors.headerAndfooter};
 `;
 
 export const Logo = styled.img`
   width: 130px;
   height: 100%;
-  background-color: ${({ theme }) => theme.colors.headerBackground};
+  background-color: ${({ theme }) => theme.colors.headerAndfooter};
 `;
 
-export const Navigation = styled.nav``;
+export const Navigation = styled.nav`
+  @media (max-width: 470px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ${({ theme }) => theme.colors.headerAndfooter};
+  }
+`;
 
 export const List = styled.ul`
   display: flex;
   flex-direction: row;
   gap: 20px;
   color: ${({ theme }) => theme.colors.title};
-  background-color: ${({ theme }) => theme.colors.headerBackground};
+  background-color: ${({ theme }) => theme.colors.headerAndfooter};
   font-size: 15px;
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
   font-family: "Poppins", sans-serif;
@@ -69,24 +77,16 @@ export const List = styled.ul`
 `;
 
 export const Sections = styled.li`
-  background-color: ${({ theme }) => theme.colors.headerBackground};
+  background-color: ${({ theme }) => theme.colors.headerAndfooter};
+  color: ${({ theme }) => theme.colors.title};
   cursor: pointer;
-`;
-
-export const Home = styled.a`
-  color: ${({ theme }) => theme.colors.title};
-  text-decoration: none;
-  background-color: ${({ theme }) => theme.colors.headerBackground};
-`;
-
-export const Services = styled.a`
-  color: ${({ theme }) => theme.colors.title};
-  text-decoration: none;
-  background-color: ${({ theme }) => theme.colors.headerBackground};
+  @media (max-width: 710px) {
+    font-size: 15px;
+  }
 `;
 
 export const Title = styled.h1`
-  background-color: ${({ theme }) => theme.colors.headerBackground};
+  background-color: ${({ theme }) => theme.colors.headerAndfooter};
   color: ${({ theme }) => theme.colors.title};
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
   font-family: "Poppins", sans-serif;

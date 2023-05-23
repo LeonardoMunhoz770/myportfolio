@@ -36,14 +36,14 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.subtitle};
   font-size: 30px;
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
   font-family: "Poppins", sans-serif;
 `;
 
 export const Border = styled.div`
-  background-color: ${({ theme }) => theme.colors.secondary};
+  background-color: ${({ theme }) => theme.colors.subtitle};
   width: 100px;
   height: 5px;
 `;
@@ -56,6 +56,13 @@ export const ContainerContact = styled.div`
 export const SocialMedia = styled.div`
   width: 50%;
   height: 100%;
+  @media (max-width: 628px) {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const ContainerIcon = styled.figure``;
@@ -64,6 +71,7 @@ export const ContainerInformations = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 100%;
 `;
 
 export const TitleContact = styled.h1`
@@ -78,6 +86,7 @@ export const Street = styled.p`
   font-size: 15px;
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
   font-family: "Poppins", sans-serif;
+  width: 100%;
 `;
 
 export const ContentContact = styled.div`
@@ -85,4 +94,5 @@ export const ContentContact = styled.div`
   gap: 20px;
   align-items: center;
   padding: 15px;
+  width: 100%;
 `;

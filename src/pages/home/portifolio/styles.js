@@ -40,14 +40,14 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.subtitle};
   font-size: 30px;
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
   font-family: "Poppins", sans-serif;
 `;
 
 export const Border = styled.div`
-  background-color: ${({ theme }) => theme.colors.secondary};
+  background-color: ${({ theme }) => theme.colors.subtitle};
   width: 100px;
   height: 5px;
 `;

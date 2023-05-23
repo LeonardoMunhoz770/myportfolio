@@ -36,14 +36,14 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.subtitle};
   font-size: 30px;
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
   font-family: "Poppins", sans-serif;
 `;
 
 export const Border = styled.div`
-  background-color: ${({ theme }) => theme.colors.secondary};
+  background-color: ${({ theme }) => theme.colors.subtitle};
   width: 100px;
   height: 5px;
 `;
@@ -65,7 +65,7 @@ export const QualificationsWrapper = styled.div`
 `;
 
 export const Quality = styled.div`
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.backgroundContainer};
   width: calc(33.33% - 20px);
   height: 250px;
   border-radius: 2px;
@@ -99,7 +99,7 @@ export const LineTwo = styled.img`
 
 export const ContentFigure = styled.figure`
   margin-top: 20px;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.backgroundContainer};
   padding: 0px 20px;
 `;
 
@@ -110,7 +110,7 @@ export const TitleQuality = styled.h1`
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: ${({ theme }) => theme.colors.title};
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.backgroundContainer};
   padding: 0px 20px;
 `;
 
@@ -118,7 +118,7 @@ export const Description = styled.p`
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
   font-family: "Poppins", sans-serif;
   color: ${({ theme }) => theme.colors.title};
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.backgroundContainer};
   padding: 0px 20px;
   font-size: 14px;
   line-height: 15px;

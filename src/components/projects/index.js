@@ -32,12 +32,12 @@ const Projects = ({
             href={url}
             style={{
               backgroundColor: "transparent",
-              color: theme.colors.title,
+              color: theme.colors.titleButton,
               textDecoration: "none",
             }}
             target="__blank"
           >
-            Veja você mesmo!
+            Acesse
           </a>
         </Button>
       </ContentInformationsProject>

@@ -37,11 +37,11 @@ export default createGlobalStyle`
     }
 
     body::-webkit-scrollbar-track {
-        background: #716C89;        
+        background: ${({ theme }) => theme.colors.backgroundScroll};        
     }
 
     body::-webkit-scrollbar-thumb {
-        background-color: #545167;    
+        background-color: ${({ theme }) => theme.colors.scroll};    
         border-radius: 5px;       
     }
     ol, ul {

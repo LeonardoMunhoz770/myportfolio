@@ -41,7 +41,7 @@ const Skills = () => {
           <QualificationsWrapper>
             <Quality>
               <ContentFigure>
-                <AiFillGithub color={theme.colors.secondary} size={50} />
+                <AiFillGithub color={theme.colors.subtitle} size={50} />
               </ContentFigure>
               <TitleQuality>Versionamento de Git</TitleQuality>
               <Description>
@@ -53,7 +53,7 @@ const Skills = () => {
             </Quality>
             <Quality>
               <ContentFigure>
-                <AiOutlineGlobal color={theme.colors.secondary} size={50} />
+                <AiOutlineGlobal color={theme.colors.subtitle} size={50} />
               </ContentFigure>
               <TitleQuality>Desenvolvimento Web</TitleQuality>
               <Description>
@@ -64,7 +64,7 @@ const Skills = () => {
             </Quality>
             <Quality>
               <ContentFigure>
-                <BsPhoneFill color={theme.colors.secondary} size={50} />
+                <BsPhoneFill color={theme.colors.subtitle} size={50} />
               </ContentFigure>
               <TitleQuality>Desenvolvimento Mobile</TitleQuality>
               <Description>
@@ -75,7 +75,7 @@ const Skills = () => {
             </Quality>
             <Quality>
               <ContentFigure>
-                <BsWrench color={theme.colors.secondary} size={50} />
+                <BsWrench color={theme.colors.subtitle} size={50} />
               </ContentFigure>
               <TitleQuality>Manutenção Software/Hardware</TitleQuality>
               <Description>
@@ -85,7 +85,7 @@ const Skills = () => {
             </Quality>
             <Quality>
               <ContentFigure>
-                <BsServer color={theme.colors.secondary} size={50} />
+                <BsServer color={theme.colors.subtitle} size={50} />
               </ContentFigure>
               <TitleQuality>Servidor</TitleQuality>
               <Description>
@@ -96,7 +96,7 @@ const Skills = () => {
             </Quality>
             <Quality>
               <ContentFigure>
-                <AiOutlineConsoleSql color={theme.colors.secondary} size={50} />
+                <AiOutlineConsoleSql color={theme.colors.subtitle} size={50} />
               </ContentFigure>
               <TitleQuality>Noções gerais de uso</TitleQuality>
               <Description>

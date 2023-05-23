@@ -7,7 +7,7 @@ export const FooterPage = styled.footer`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.headerBackground};
+  background-color: ${({ theme }) => theme.colors.headerAndfooter};
   color: ${({ theme }) => theme.colors.title};
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
   font-family: "Poppins", sans-serif;
@@ -19,4 +19,5 @@ export const ContentContact = styled.div`
   display: flex;
   flex-direction: row;
   gap: 10px;
+  background-color: ${({ theme }) => theme.colors.headerAndfooter};
 `;

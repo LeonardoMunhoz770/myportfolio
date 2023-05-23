@@ -37,7 +37,7 @@ const Contact = () => {
           <SocialMedia>
             <ContentContact>
               <ContainerIcon>
-                <AiOutlineWhatsApp color={theme.colors.secondary} size={50} />
+                <AiOutlineWhatsApp color={theme.colors.subtitle} size={50} />
               </ContainerIcon>
               <ContainerInformations>
                 <TitleContact>WhatsApp</TitleContact>
@@ -46,7 +46,7 @@ const Contact = () => {
             </ContentContact>
             <ContentContact>
               <ContainerIcon>
-                <AiTwotoneMail color={theme.colors.secondary} size={50} />
+                <AiTwotoneMail color={theme.colors.subtitle} size={50} />
               </ContainerIcon>
               <ContainerInformations>
                 <TitleContact>Email</TitleContact>
@@ -55,7 +55,7 @@ const Contact = () => {
             </ContentContact>
             <ContentContact>
               <ContainerIcon>
-                <AiFillEnvironment color={theme.colors.secondary} size={50} />
+                <AiFillEnvironment color={theme.colors.subtitle} size={50} />
               </ContainerIcon>
               <ContainerInformations>
                 <TitleContact>Localização</TitleContact>

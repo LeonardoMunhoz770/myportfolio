@@ -6,14 +6,14 @@ export const Container = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.backgroundContainer};
   justify-content: space-between;
   align-items: center;
   @media (max-width: 1341px) {
     flex-direction: column;
   }
-  padding-top: 25px;
-  padding-bottom: 25px;
+
+  padding: 50px 0px 50px 0px;
 `;
 
 export const ContentImageProject = styled.figure`
@@ -23,7 +23,7 @@ export const ContentImageProject = styled.figure`
 `;
 
 export const ContentInformationsProject = styled.div`
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.backgroundContainer};
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@ export const ContentInformationsProject = styled.div`
 export const Title = styled.h1`
   color: ${({ theme }) => theme.colors.title};
   width: 50%;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.backgroundContainer};
   justify-content: center;
   align-items: center;
   display: flex;
@@ -61,7 +61,7 @@ export const Description = styled.p`
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.backgroundContainer};
   font-family: "Abel", sans-serif;
   @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
   font-size: 15px;
@@ -71,5 +71,5 @@ export const Description = styled.p`
 export const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 15px;
 `;

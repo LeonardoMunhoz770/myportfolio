@@ -12,22 +12,20 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/leonardo-munhoz-5b63721b7/"
           style={{
-            color: "white",
-            backgroundColor: theme.colors.headerBackground,
+            backgroundColor: theme.colors.headerAndfooter,
           }}
           target="__blank"
         >
-          <AiFillLinkedin size={25} />
+          <AiFillLinkedin size={25} color={theme.colors.subtitle} />
         </a>
         <a
           href="https://github.com/LeonardoMunhoz770"
           style={{
-            color: "white",
-            backgroundColor: theme.colors.headerBackground,
+            backgroundColor: theme.colors.headerAndfooter,
           }}
           target="__blank"
         >
-          <AiFillGithub size={25} />
+          <AiFillGithub size={25} color={theme.colors.subtitle} />
         </a>
       </ContentContact>
     </FooterPage>

@@ -6,18 +6,20 @@ import {
   Navigation,
   List,
   Sections,
-  Home,
-  Services,
   Title,
 } from "./styles";
 
-const Header = () => {
+import { AiFillBulb } from "react-icons/ai";
+import { useTheme } from "styled-components";
+
+const Header = ({ toggleTheme }) => {
   const handleNavClick = (event) => {
     event.preventDefault();
     const sectionId = event.target.getAttribute("href");
     const section = document.querySelector(sectionId);
     section.scrollIntoView({ behavior: "smooth" });
   };
+  const theme = useTheme();
 
   return (
     <HeaderPage>
@@ -27,15 +29,11 @@ const Header = () => {
         </ContentLogo>
         <Navigation>
           <List>
-            <Sections>
-              <Home href="#home" onClick={handleNavClick}>
-                Home
-              </Home>
+            <Sections href="#home" onClick={handleNavClick}>
+              Home
             </Sections>
-            <Sections>
-              <Services href="#services" onClick={handleNavClick}>
-                Serviços
-              </Services>
+            <Sections href="#services" onClick={handleNavClick}>
+              Serviços
             </Sections>
             <Sections href="#about" onClick={handleNavClick}>
               Sobre Mim
@@ -46,6 +44,12 @@ const Header = () => {
             <Sections href="#contact" onClick={handleNavClick}>
               Contato
             </Sections>
+            <AiFillBulb
+              style={{ cursor: "pointer" }}
+              size={15}
+              color={theme.colors.title}
+              onClick={toggleTheme}
+            />
           </List>
         </Navigation>
       </Container>
