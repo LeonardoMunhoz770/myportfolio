@@ -19,7 +19,7 @@ const Portifolio = () => {
         "Esta é uma landing page desenvolvida com React, ela não apenas apresenta um aplicativo de turismo inovador, mas também me permitiu aprimorar minhas habilidades em HTML, CSS e styled-components, além de aprender conceitos importantes de clean code e estruturação de projetos em React. Com o aplicativo apresentado na landing page, os usuários podem registrar seus momentos, descobrir novos lugares e ver fotos reais dos locais sem a necessidade de seguir ou conhecer outras pessoas. Eu convido você a dar uma olhada e conferir tudo o que aprendi!",
       imageProject: imageBegrato,
       titleProject: "Begrato Landing Page",
-      url: "https://www.begrato.com/",
+      url: "https://begrato-lp.vercel.app/",
       alt: "pagina de um app de fotos e videos inteligentes",
     },
     {
