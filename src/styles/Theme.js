@@ -17,7 +17,7 @@ export const darkTheme = {
     headerAndfooter: "white",
     subtitle: "#277ac0",
     title: "black",
-    backgroundContainer: "#FFFFFF",
+    backgroundContainer: "white",
     backgroundGlobal: "#FBFBFE",
     backgroundScroll: "#E3E2E9",
     scroll: "#C8C6D2",

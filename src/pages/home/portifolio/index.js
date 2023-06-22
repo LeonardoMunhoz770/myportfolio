@@ -11,6 +11,7 @@ import Projects from "../../../components/projects";
 import imageBegrato from "../../../assets/begreatoLp.webp";
 import imageOrganograma from "../../../assets/valorant.webp";
 import imageMunhozCompany from "../../../assets/munhozCompany.webp";
+import imageMunhozCompanyReact from "../../../assets/munhozCompanyReact.webp";
 
 const Portifolio = () => {
   const arrayProjects = [
@@ -37,6 +38,13 @@ const Portifolio = () => {
       titleProject: "MunhozCompany Firebase",
       url: "https://munhoz-project.vercel.app/",
       alt: "tela de login e senha com o tema MunhozCompany",
+    },
+    {
+      description:
+        "Este projeto em desenvolvimento é um sistema completo de autenticação com o mesmo sistema do firebase, porém agora utilizando react, react-router, styled components e a api do Firebase, nele é implementado as rotas privadas e públicas, sistema de cadastro, autenticação, tudo isso utilizando o token gerado pelo firebase para cada usuário",
+      imageProject: imageMunhozCompanyReact,
+      titleProject: "Sistema de Autenticação",
+      url: "https://munhoz-company.vercel.app/",
     },
   ];
 

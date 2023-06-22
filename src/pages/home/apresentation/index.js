@@ -8,7 +8,6 @@ import {
   ImageSection,
   ContentText,
 } from "./styles";
-import Button from "../../../components/button";
 import lineOne from "../../../assets/lineOne.webp";
 
 const Apresentation = () => {
@@ -21,9 +20,6 @@ const Apresentation = () => {
             Gosto de criar designs de aplicativos da web e trazê-los à vida
             usando código e desenvolver designs responsivos.
           </Subtitle>
-          <Button width="50%" height={50}>
-            Criar Jornada
-          </Button>
         </ContentText>
         <OneSection>
           <ImageSection

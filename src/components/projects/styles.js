@@ -71,5 +71,5 @@ export const Description = styled.p`
 export const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
 `;
