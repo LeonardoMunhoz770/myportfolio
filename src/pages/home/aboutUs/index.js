@@ -19,7 +19,7 @@ import { useState } from "react";
 
 const AboutUs = () => {
   const urlCV =
-    "https://drive.google.com/u/0/uc?id=12EjRZnGxlPfIIQjHr7Gz_0PpNwlTyyPh&export=download";
+    "https://drive.google.com/u/0/uc?id=1TcHU1viOEaIHL4R-z_v4z_D_tblG6RO3&export=download";
 
   const [download, setDownload] = useState("");
 
@@ -34,18 +34,18 @@ const AboutUs = () => {
         <ContainerAboutUs>
           <ContentDescription>
             <Description>
-              Meu nome é Leonardo Munhoz, tenho 21 anos e estou no último
-              semestre do curso de Análise e Desenvolvimento de Sistemas na
-              Universidade Cruzeiro do Sul. Durante minha trajetória, adquiri
-              experiência como técnico de informática em duas empresas,
-              incluindo uma empresa renomada no setor de infraestrutura. No
-              entanto, estou atualmente focado em me aprimorar na área de
-              desenvolvimento front-end. Estou empenhado nos estudos e no
-              aperfeiçoamento das minhas habilidades de programação, buscando
-              adquirir conhecimentos sólidos para ingressar na área de
-              desenvolvimento front-end. Estou entusiasmado com as
-              possibilidades que essa área oferece e estou determinado a me
-              tornar um profissional competente e inovador nesse campo.
+              Sou formado em Análise e Desenvolvimento de Sistemas e tenho como
+              objetivo profissional migrar para área de desenvolvimento. Tenho
+              desenvolvido projetos de programação utilizando JavaScript. No
+              momento, estou focado em aprimorar meus conhecimentos na área web,
+              principalmente com ReactJS. Sou uma pessoa comunicativa e tenho
+              facilidade em me adaptar aos projetos atribuídos a mim. Tenho
+              habilidade em aprender rapidamente e sou curioso, sempre disposto
+              a adquirir conhecimentos sobre novas tecnologias. Possuo
+              experiência como Analista em uma renomada empresa de tecnologia,
+              onde desempenhei diversas atividades, como manutenção de hardware
+              e software, suporte aos funcionários, gerenciamento de backups e
+              servidores.
               <Button
                 width={150}
                 onClick={() => {
