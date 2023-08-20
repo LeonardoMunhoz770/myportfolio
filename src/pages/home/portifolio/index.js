@@ -11,6 +11,8 @@ import Projects from "../../../components/projects";
 import imageBegrato from "../../../assets/begreatoLp.webp";
 import imageMunhozCompanyReact from "../../../assets/munhozCompanyReact.webp";
 import imageFormCredit from "../../../assets/formCard.webp";
+import imageLifeLab from "../../../assets/life_lab.webp";
+import imageAdvLink from "../../../assets/advlink.webp";
 
 const Portifolio = () => {
   const arrayProjects = [
@@ -21,6 +23,22 @@ const Portifolio = () => {
       titleProject: "Begrato Landing Page",
       url: "https://begrato-lp.vercel.app/",
       alt: "pagina de um app de fotos e videos inteligentes",
+    },
+    {
+      description:
+        "Este é uwebsite desenvolvido para um cliente referente a um laboratório de análises clínicas, tem todas as informações da empresa, inclusive a localização da empresa no maps e o contato via instagram e whatsapp. Foi feito com Html, css e JS. ",
+      imageProject: imageLifeLab,
+      titleProject: "LifeLab",
+      url: "https://laboratoriolifelab.com.br/",
+      alt: "home page lifeLab",
+    },
+    {
+      description:
+        "Este é um aplicativo que eu realizo manutenção mensal, ele foi desenvolvido com react-native e php, além do banco de dados em mysql. Já está em produção e eu realizo ajustes e novas atualizações que o cliente solicita.",
+      titleProject: "Advlink",
+      imageProject: imageAdvLink,
+      url: "https://play.google.com/store/apps/details?id=com.advlink",
+      alt: "aplicativo de advogados",
     },
     {
       description:
