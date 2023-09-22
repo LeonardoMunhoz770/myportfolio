@@ -19,7 +19,7 @@ import { useState } from "react";
 
 const AboutUs = () => {
   const urlCV =
-    "https://drive.google.com/u/0/uc?id=1TcHU1viOEaIHL4R-z_v4z_D_tblG6RO3&export=download";
+    "https://drive.google.com/u/0/uc?id=1nVn0S6FuTuemrdAECxCr5BKpEHfGKok_&export=download";
 
   const [download, setDownload] = useState("");
 
@@ -34,18 +34,13 @@ const AboutUs = () => {
         <ContainerAboutUs>
           <ContentDescription>
             <Description>
-              Sou formado em Análise e Desenvolvimento de Sistemas e tenho como
-              objetivo profissional migrar para área de desenvolvimento. Tenho
-              desenvolvido projetos de programação utilizando JavaScript. No
-              momento, estou focado em aprimorar meus conhecimentos na área web,
-              principalmente com ReactJS. Sou uma pessoa comunicativa e tenho
-              facilidade em me adaptar aos projetos atribuídos a mim. Tenho
-              habilidade em aprender rapidamente e sou curioso, sempre disposto
-              a adquirir conhecimentos sobre novas tecnologias. Possuo
-              experiência como Analista em uma renomada empresa de tecnologia,
-              onde desempenhei diversas atividades, como manutenção de hardware
-              e software, suporte aos funcionários, gerenciamento de backups e
-              servidores.
+              Sou formado em Análise e Desenvolvimento de Sistemas. Tenho
+              experiência em projetos de programação, com foco em JavaScript,
+              particularmente no uso do ReactJS, e conhecimento em tecnologias
+              de backend, como PHP Laravel e bancos de dados MySQL. Minhas
+              habilidades incluem JavaScript, HTML, CSS e ReactJS, e minha
+              capacidade de adaptação e aprendizado rápido me permitem
+              contribuir efetivamente para diversos projetos.
               <Button
                 width={150}
                 onClick={() => {

@@ -26,7 +26,7 @@ const Portifolio = () => {
     },
     {
       description:
-        "Este é uwebsite desenvolvido para um cliente referente a um laboratório de análises clínicas, tem todas as informações da empresa, inclusive a localização da empresa no maps e o contato via instagram e whatsapp. Foi feito com Html, css e JS. ",
+        "Este é uma LandingPage desenvolvido para um cliente referente a um laboratório de análises clínicas, tem todas as informações da empresa, inclusive a localização da empresa no maps e o contato via instagram e whatsapp. Foi feito com Html, css e JS. ",
       imageProject: imageLifeLab,
       titleProject: "LifeLab",
       url: "https://laboratoriolifelab.com.br/",
