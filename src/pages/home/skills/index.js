@@ -41,25 +41,12 @@ const Skills = () => {
           <QualificationsWrapper>
             <Quality>
               <ContentFigure>
-                <AiFillGithub color={theme.colors.subtitle} size={50} />
-              </ContentFigure>
-              <TitleQuality>Versionamento de Git</TitleQuality>
-              <Description>
-                Conhecimentos nos principais comandos básicos de git para
-                criação de repositório, trocar de branch, verificar status,
-                commitar, clonar o repositório, enviar alterações e baixar as
-                alterações do repositório.
-              </Description>
-            </Quality>
-            <Quality>
-              <ContentFigure>
                 <AiOutlineGlobal color={theme.colors.subtitle} size={50} />
               </ContentFigure>
               <TitleQuality>Desenvolvimento Web</TitleQuality>
               <Description>
-                Conhecimentos em Desenvolvimento web com as tecnologias HTML,
-                CSS E JS, além de conhecimentos no framework React. Já
-                desenvolvi projetos em React e em JS puro.
+                Desenvolvimento Web com foco em HTML, CSS, JavaScript e React.
+                Experiência com projetos em React e JavaScript puro.
               </Description>
             </Quality>
             <Quality>
@@ -68,9 +55,32 @@ const Skills = () => {
               </ContentFigure>
               <TitleQuality>Desenvolvimento Mobile</TitleQuality>
               <Description>
-                Conhecimentos básicos em react-native, com um projeto
-                profissional realizado utilizando as principais metodologias de
-                clean code.
+                Desenvolvimento Mobile com React Native.Criação de aplicativos
+                móveis para diversas plataformas, como iOS e Android.
+              </Description>
+            </Quality>
+            <Quality>
+              <ContentFigure>
+                <AiFillGithub color={theme.colors.subtitle} size={50} />
+              </ContentFigure>
+              <TitleQuality>Versionamento de Git</TitleQuality>
+              <Description>
+                Domínio dos principais comandos básicos do Git para criar
+                repositórios, alternar entre branches, verificar status, efetuar
+                commits, clonar repositórios, enviar modificações e sincronizar
+                com as atualizações do repositório.
+              </Description>
+            </Quality>
+
+            <Quality>
+              <ContentFigure>
+                <AiOutlineConsoleSql color={theme.colors.subtitle} size={50} />
+              </ContentFigure>
+              <TitleQuality>Noções gerais de uso</TitleQuality>
+              <Description>
+                Conhecimentos sólidos nos fundamentos de PHP com Laravel para
+                desenvolvimento backend, juntamente com MySQL para a construção
+                de bancos de dados relacionais.
               </Description>
             </Quality>
             <Quality>
@@ -80,7 +90,7 @@ const Skills = () => {
               <TitleQuality>Manutenção Software/Hardware</TitleQuality>
               <Description>
                 Manutenção e configuração de hardware e software, experiência de
-                2 anos na área de infraestrutura e suporte de TI
+                2 anos na área de infraestrutura e suporte de TI.
               </Description>
             </Quality>
             <Quality>
@@ -92,16 +102,6 @@ const Skills = () => {
                 Gerenciamento de backups, Active Directory, configurações
                 básicas de GPO, criação e edição de users. Conhecimentos nas
                 principais ferramentas de Remote Desktop.
-              </Description>
-            </Quality>
-            <Quality>
-              <ContentFigure>
-                <AiOutlineConsoleSql color={theme.colors.subtitle} size={50} />
-              </ContentFigure>
-              <TitleQuality>Noções gerais de uso</TitleQuality>
-              <Description>
-                Possuo conhecimentos com base nos fundamentos de node como
-                backend e sql para construção de banco de dados relacionais
               </Description>
             </Quality>
           </QualificationsWrapper>
