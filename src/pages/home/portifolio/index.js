@@ -9,7 +9,7 @@ import {
 } from "./styles";
 import Projects from "../../../components/projects";
 import imageBegrato from "../../../assets/begreatoLp.webp";
-import imageMunhozCompanyReact from "../../../assets/munhozCompanyReact.webp";
+import ymk from "../../../assets/ymk.webp";
 import imageFormCredit from "../../../assets/formCard.webp";
 import imageAdvLink from "../../../assets/advlink.webp";
 
@@ -25,19 +25,20 @@ const Portifolio = () => {
     },
     {
       description:
+        "Esta é um site desenvolvido para a empresa em que eu presto serviços, foi desenvolvido com React e o backend para o envio de formulários foi feito com PHP.",
+      imageProject: ymk,
+      titleProject: "YMK Agência Imobiliária",
+      url: "https://ymk-nine.vercel.app/",
+    },
+    {
+      description:
         "Este é um aplicativo que eu realizo manutenção mensal, ele foi desenvolvido com react-native e php, além do banco de dados em mysql. Já está em produção e eu realizo ajustes e novas atualizações que o cliente solicita.",
       titleProject: "Aplicativo ADVlink",
       imageProject: imageAdvLink,
       url: "https://play.google.com/store/apps/details?id=com.advlink",
       alt: "aplicativo de advogados",
     },
-    {
-      description:
-        "Este projeto em desenvolvimento é um sistema completo de autenticação com o mesmo sistema do firebase, porém agora utilizando react, react-router, styled components e a api do Firebase, nele é implementado as rotas privadas e públicas, sistema de cadastro, autenticação, tudo isso utilizando o token gerado pelo firebase para cada usuário.",
-      imageProject: imageMunhozCompanyReact,
-      titleProject: "Sistema de Autenticação",
-      url: "https://munhoz-company.vercel.app/",
-    },
+
     {
       description:
         "Criei um formulário de registro de cartão de crédito em ReactJS com validações e reconhecimento de bandeiras de cartão (Visa, Mastercard, American Express, Discover, Diners Club e Maestro) usando styled-components.",
