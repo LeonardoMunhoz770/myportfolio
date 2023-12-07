@@ -12,6 +12,7 @@ import imageBegrato from "../../../assets/begreatoLp.webp";
 import ymk from "../../../assets/ymk.webp";
 import imageFormCredit from "../../../assets/formCard.webp";
 import imageAdvLink from "../../../assets/advlink.webp";
+import imageLPTA from "../../../assets/lpta.webp";
 
 const Portifolio = () => {
   const arrayProjects = [
@@ -29,6 +30,14 @@ const Portifolio = () => {
       imageProject: ymk,
       titleProject: "YMK Agência Imobiliária",
       url: "https://ymk-nine.vercel.app/",
+    },
+    {
+      description:
+        "Esta é um site desenvolvido para um cliente da empresa que eu presto serviço, foi desenvolvido com reactJS",
+      titleProject: "LPTA Facilities",
+      imageProject: imageLPTA,
+      url: "https://play.google.com/store/apps/details?id=com.advlink",
+      alt: "site de servicos",
     },
     {
       description:
