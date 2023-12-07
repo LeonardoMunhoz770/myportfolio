@@ -36,7 +36,7 @@ const Portifolio = () => {
         "Esta é um site desenvolvido para um cliente da empresa que eu presto serviço, foi desenvolvido com reactJS",
       titleProject: "LPTA Facilities",
       imageProject: imageLPTA,
-      url: "https://play.google.com/store/apps/details?id=com.advlink",
+      url: "https://lpta-landing-page.vercel.app/",
       alt: "site de servicos",
     },
     {
