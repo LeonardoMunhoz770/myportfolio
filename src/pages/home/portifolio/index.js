@@ -29,7 +29,7 @@ const Portifolio = () => {
         "Esta é um site desenvolvido para a empresa em que eu presto serviços, foi desenvolvido com React e o backend para o envio de formulários foi feito com PHP.",
       imageProject: ymk,
       titleProject: "YMK Agência Imobiliária",
-      url: "https://ymk-nine.vercel.app/",
+      url: "https://ymk.com.br/",
     },
     {
       description:
