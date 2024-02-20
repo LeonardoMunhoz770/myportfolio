@@ -36,7 +36,7 @@ const Portifolio = () => {
         "Esta é um site desenvolvido para um cliente da empresa que eu presto serviço, foi desenvolvido com reactJS",
       titleProject: "LPTA Facilities",
       imageProject: imageLPTA,
-      url: "https://lpta-landing-page.vercel.app/",
+      url: "https://lpta.vercel.app/",
       alt: "site de servicos",
     },
     {
