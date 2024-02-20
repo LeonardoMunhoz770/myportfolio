@@ -13,7 +13,7 @@ import ymk from "../../../assets/ymk.webp";
 import imageFormCredit from "../../../assets/formCard.webp";
 import imageAdvLink from "../../../assets/advlink.webp";
 import imageLPTA from "../../../assets/lpta.webp";
-import imageRealEstate from "../../../realestate.webp";
+import imageRealEstate from "../../../assets/realestate.webp";
 
 const Portifolio = () => {
   const arrayProjects = [
