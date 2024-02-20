@@ -13,6 +13,7 @@ import ymk from "../../../assets/ymk.webp";
 import imageFormCredit from "../../../assets/formCard.webp";
 import imageAdvLink from "../../../assets/advlink.webp";
 import imageLPTA from "../../../assets/lpta.webp";
+import imageRealEstate from "../../../realestate.webp";
 
 const Portifolio = () => {
   const arrayProjects = [
@@ -38,6 +39,14 @@ const Portifolio = () => {
       imageProject: imageLPTA,
       url: "https://lpta.vercel.app/",
       alt: "site de servicos",
+    },
+    {
+      description:
+        "Site desenvolvido para a empresa que presto serviço do ramo imobiliário, foi desenvolvido com reactJS",
+      titleProject: "RealEstate4.me",
+      imageProject: imageRealEstate,
+      url: "https://realestate4me.com.br/",
+      alt: "site de imobiliária",
     },
     {
       description:
