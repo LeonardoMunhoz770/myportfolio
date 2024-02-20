@@ -21,8 +21,6 @@ export default createGlobalStyle`
         font: inherit;
         vertical-align: baseline;
         background-color: ${({ theme }) => theme.colors.backgroundGlobal};
-        scrollbar-width: thin;          /* "auto" or "thin" */
-        scrollbar-color: blue orange;
     }
     article, aside, details, figcaption, figure, 
     footer, header, hgroup, menu, nav, section {
