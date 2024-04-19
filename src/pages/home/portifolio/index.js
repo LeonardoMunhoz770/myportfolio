@@ -10,7 +10,7 @@ import {
 import Projects from "../../../components/projects";
 import imageBegrato from "../../../assets/begreatoLp.webp";
 import ymk from "../../../assets/ymk.webp";
-import imageFormCredit from "../../../assets/formCard.webp";
+import imageUrblar from "../../../assets/urblar.webp";
 import imageAdvLink from "../../../assets/advlink.webp";
 import imageLPTA from "../../../assets/lpta.webp";
 import imageRealEstate from "../../../assets/realestate.webp";
@@ -24,6 +24,13 @@ const Portifolio = () => {
       titleProject: "Begrato Landing Page",
       url: "https://begrato-lp.vercel.app/",
       alt: "pagina de um app de fotos e videos inteligentes",
+    },
+    {
+      description:
+        "Landing page de apresentação com informações da empresa, desenvolvida com react e styled-components para estilização.",
+      imageProject: imageUrblar,
+      titleProject: "Landing Page Urblar",
+      url: "https://urblar.com.br",
     },
     {
       description:
@@ -55,14 +62,6 @@ const Portifolio = () => {
       imageProject: imageAdvLink,
       url: "https://play.google.com/store/apps/details?id=com.advlink",
       alt: "aplicativo de advogados",
-    },
-
-    {
-      description:
-        "Criei um formulário de registro de cartão de crédito em ReactJS com validações e reconhecimento de bandeiras de cartão (Visa, Mastercard, American Express, Discover, Diners Club e Maestro) usando styled-components.",
-      imageProject: imageFormCredit,
-      titleProject: "Registro de Cartão de Crédito",
-      url: "https://form-credit-card-ten.vercel.app/",
     },
   ];
 
