@@ -12,6 +12,7 @@ export const Container = styled.div`
 export const Content = styled.section`
   width: 70%;
   height: 100%;
+
   @media (max-width: 941px) {
     width: 100%;
     padding: 20px 20px;
@@ -59,6 +60,7 @@ export const QualificationsWrapper = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
+
   @media (max-width: 639px) {
     justify-content: center;
   }
@@ -67,17 +69,19 @@ export const QualificationsWrapper = styled.div`
 export const Quality = styled.div`
   background-color: ${({ theme }) => theme.colors.backgroundContainer};
   width: calc(33.33% - 20px);
-  height: 250px;
+  height: 230px;
   border-radius: 2px;
   margin-bottom: 20px;
-  @media (max-width: 800px) {
-    width: 300px;
-  }
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   display: flex;
   gap: 10px;
+
+  @media (max-width: 800px) {
+    width: 300px;
+  }
+
   @media (max-width: 1090px) {
     justify-content: flex-start;
     gap: 5px;
@@ -98,9 +102,9 @@ export const LineTwo = styled.img`
 `;
 
 export const ContentFigure = styled.figure`
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: ${({ theme }) => theme.colors.backgroundContainer};
-  padding: 0px 20px;
+  padding: 0px 15px;
 `;
 
 export const ImageQuality = styled.img``;
@@ -111,7 +115,7 @@ export const TitleQuality = styled.h1`
   font-weight: bold;
   color: ${({ theme }) => theme.colors.title};
   background-color: ${({ theme }) => theme.colors.backgroundContainer};
-  padding: 0px 20px;
+  padding: 0px 15px;
 `;
 
 export const Description = styled.p`
@@ -119,7 +123,11 @@ export const Description = styled.p`
   font-family: "Poppins", sans-serif;
   color: ${({ theme }) => theme.colors.title};
   background-color: ${({ theme }) => theme.colors.backgroundContainer};
-  padding: 0px 20px;
+  padding: 0 15px;
   font-size: 14px;
-  line-height: 15px;
+  line-height: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

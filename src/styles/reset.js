@@ -22,13 +22,6 @@ export default createGlobalStyle`
         vertical-align: baseline;
         background-color: ${({ theme }) => theme.colors.backgroundGlobal};
     }
-    article, aside, details, figcaption, figure, 
-    footer, header, hgroup, menu, nav, section {
-        display: block;
-    }
-    body {
-        line-height: 1;
-    }
 
     body::-webkit-scrollbar {
      width: 9px;              
@@ -44,18 +37,6 @@ export default createGlobalStyle`
     }
     ol, ul {
         list-style: none;
-    }
-    blockquote, q {
-        quotes: none;
-    }
-    blockquote:before, blockquote:after,
-    q:before, q:after {
-        content: '';
-        content: none;
-    }
-    table {
-        border-collapse: collapse;
-        border-spacing: 0;
     }
 
     @font-face {

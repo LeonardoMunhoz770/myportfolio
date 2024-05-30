@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-export const lightTheme = {
+export const darkTheme = {
   colors: {
     headerAndfooter: "#212336",
     subtitle: "#277ac0",
@@ -8,19 +8,6 @@ export const lightTheme = {
     backgroundGlobal: "#23263A",
     backgroundScroll: "#716C89",
     scroll: "#545167",
-    titleButton: "#FFFFFF",
-  },
-};
-
-export const darkTheme = {
-  colors: {
-    headerAndfooter: "white",
-    subtitle: "#277ac0",
-    title: "black",
-    backgroundContainer: "white",
-    backgroundGlobal: "#FBFBFE",
-    backgroundScroll: "#E3E2E9",
-    scroll: "#C8C6D2",
     titleButton: "#FFFFFF",
   },
 };

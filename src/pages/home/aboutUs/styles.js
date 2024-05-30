@@ -72,11 +72,12 @@ export const Description = styled.p`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+
   @media (max-width: 653px) {
     height: 100%;
   }
-  flex-direction: column;
-  gap: 20px;
 `;
 
 export const LineTrhee = styled.img`

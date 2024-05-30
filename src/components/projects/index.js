@@ -12,9 +12,9 @@ import Button from "../button";
 import { useTheme } from "styled-components";
 
 const Projects = ({
-  Descript = "lorem opsum",
+  Descript,
   ImageProject,
-  TitleProject = "lorem opsum",
+  TitleProject,
   url = "",
   alt = "",
 }) => {

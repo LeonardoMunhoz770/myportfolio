@@ -1,4 +1,6 @@
 import React from "react";
+import { useTheme } from "styled-components";
+
 import {
   ContentTitle,
   Subtitle,
@@ -15,12 +17,7 @@ import {
   ContentContact,
 } from "./styles";
 
-import {
-  AiOutlineWhatsApp,
-  AiTwotoneMail,
-  AiFillEnvironment,
-} from "react-icons/ai";
-import { useTheme } from "styled-components";
+import { AiTwotoneMail, AiFillEnvironment } from "react-icons/ai";
 
 const Contact = () => {
   const theme = useTheme();
@@ -35,15 +32,6 @@ const Contact = () => {
         </ContentTitle>
         <ContainerContact>
           <SocialMedia>
-            <ContentContact>
-              <ContainerIcon>
-                <AiOutlineWhatsApp color={theme.colors.subtitle} size={50} />
-              </ContainerIcon>
-              <ContainerInformations>
-                <TitleContact>WhatsApp</TitleContact>
-                <Street>11 94850-3682 </Street>
-              </ContainerInformations>
-            </ContentContact>
             <ContentContact>
               <ContainerIcon>
                 <AiTwotoneMail color={theme.colors.subtitle} size={50} />

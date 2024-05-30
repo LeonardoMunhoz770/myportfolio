@@ -18,8 +18,8 @@ import Button from "../../../components/button";
 import { useState } from "react";
 
 const AboutUs = () => {
-  const urlCV =
-    "https://drive.google.com/u/0/uc?id=1nVn0S6FuTuemrdAECxCr5BKpEHfGKok_&export=download";
+  const url =
+    "https://drive.usercontent.google.com/u/0/uc?id=1t8yApFW1WWkzNbh0N4RyBtk6FuIAFByL&export=download";
 
   const [download, setDownload] = useState("");
 
@@ -36,15 +36,15 @@ const AboutUs = () => {
             <Description>
               Sou formado em Análise e Desenvolvimento de Sistemas. Tenho
               experiência em projetos de programação, com foco em JavaScript,
-              particularmente no uso do ReactJS, e conhecimento em tecnologias
-              de backend, como PHP Laravel e bancos de dados MySQL. Minhas
-              habilidades incluem JavaScript, HTML, CSS e ReactJS, e minha
-              capacidade de adaptação e aprendizado rápido me permitem
-              contribuir efetivamente para diversos projetos.
+              particularmente no uso do ReactJS e React Native, e conhecimento
+              em tecnologias de backend, como PHP Laravel e bancos de dados
+              MySQL. Minhas habilidades incluem JavaScript, HTML, CSS, ReactJS e
+              React Native, e minha capacidade de adaptação e aprendizado rápido
+              me permitem contribuir efetivamente para diversos projetos.
               <Button
                 width={150}
                 onClick={() => {
-                  setDownload(urlCV);
+                  setDownload(url);
                 }}
               >
                 Download CV

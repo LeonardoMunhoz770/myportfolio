@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   Container,
   Description,
@@ -8,6 +9,7 @@ import {
   ImageSection,
   ContentText,
 } from "./styles";
+
 import lineOne from "../../../assets/lineOne.webp";
 
 const Apresentation = () => {

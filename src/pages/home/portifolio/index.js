@@ -7,19 +7,18 @@ import {
   Subtitle,
   Border,
 } from "./styles";
+
 import Projects from "../../../components/projects";
 import imageBegrato from "../../../assets/begreatoLp.webp";
 import ymk from "../../../assets/ymk.webp";
 import imageUrblar from "../../../assets/urblar.webp";
-import imageAdvLink from "../../../assets/advlink.webp";
-import imageLPTA from "../../../assets/lpta.webp";
 import imageRealEstate from "../../../assets/realestate.webp";
 
 const Portifolio = () => {
   const arrayProjects = [
     {
       description:
-        "Esta é uma landing page criada em React, que destaca um inovador aplicativo de turismo. Desenvolvê-la aprimorou minhas habilidades em HTML, CSS, styled-components e estruturação de projetos em React.",
+        "Esta landing page apresenta o aplicativo de turismo chamado Begrato, projetado para registrar e destacar lugares turísticos. Desenvolvida em React e estilizada com styled-components, a página oferece uma visão clara e atraente do aplicativo. É totalmente responsiva, garantindo uma experiência de navegação excelente em qualquer dispositivo.",
       imageProject: imageBegrato,
       titleProject: "Begrato Landing Page",
       url: "https://begrato-lp.vercel.app/",
@@ -27,41 +26,26 @@ const Portifolio = () => {
     },
     {
       description:
-        "Landing page de apresentação com informações da empresa, desenvolvida com react e styled-components para estilização.",
+        "Esta landing page de apresentação foi desenvolvida com React e styled-components para estilização, destacando a empresa Urblar. Urblar é a maior plataforma de imóveis econômicos na Capital e Grande São Paulo, oferecendo opções novas, em construção ou prontas, parceira de todas as incorporadoras da região. Encontre o imóvel ideal com condições que cabem no seu bolso na Urblar.",
       imageProject: imageUrblar,
       titleProject: "Landing Page Urblar",
       url: "https://urblar.com.br",
     },
     {
       description:
-        "Esta é um site desenvolvido para a empresa em que eu presto serviços, foi desenvolvido com React e o backend para o envio de formulários foi feito com PHP.",
+        "YMK é uma plataforma de negócios imobiliários com integração de CRM. Desenvolvi o site deles usando React e styled-components, e configurei dois formulários (para empresas e pessoas físicas) com PHPMailer para envio de informações. O site também é integrado com o CRM que a empresa utiliza, facilitando a captação de leads e o acompanhamento das interações com os clientes.",
       imageProject: ymk,
       titleProject: "YMK Agência Imobiliária",
       url: "https://ymk.com.br/",
     },
+
     {
       description:
-        "Esta é um site desenvolvido para um cliente da empresa que eu presto serviço, foi desenvolvido com reactJS",
-      titleProject: "LPTA Facilities",
-      imageProject: imageLPTA,
-      url: "https://lpta.vercel.app/",
-      alt: "site de servicos",
-    },
-    {
-      description:
-        "Site desenvolvido para a empresa que presto serviço do ramo imobiliário, foi desenvolvido com reactJS",
+        "Realestate4me é um site desenvolvido em ReactJS para a empresa do ramo imobiliário onde presto serviços. Ele oferece uma plataforma de pesquisa de imóveis internacionais, integrando um iframe que renderiza a API do site Newestateonly. Os usuários podem realizar buscas filtradas diretamente no site, facilitando a busca por propriedades em diferentes países.",
       titleProject: "RealEstate4.me",
       imageProject: imageRealEstate,
       url: "https://realestate4me.com.br/",
       alt: "site de imobiliária",
-    },
-    {
-      description:
-        "Este é um aplicativo que eu realizo manutenção mensal, ele foi desenvolvido com react-native e php, além do banco de dados em mysql. Já está em produção e eu realizo ajustes e novas atualizações que o cliente solicita.",
-      titleProject: "Aplicativo ADVlink",
-      imageProject: imageAdvLink,
-      url: "https://play.google.com/store/apps/details?id=com.advlink",
-      alt: "aplicativo de advogados",
     },
   ];
 

@@ -66,6 +66,8 @@ export const List = styled.ul`
   color: ${({ theme }) => theme.colors.title};
   background-color: ${({ theme }) => theme.colors.headerAndfooter};
   font-size: 15px;
+  list-style: none;
+
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
   font-family: "Poppins", sans-serif;
   @media (max-width: 670px) {

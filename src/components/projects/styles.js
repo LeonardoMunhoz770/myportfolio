@@ -65,7 +65,8 @@ export const Description = styled.p`
   font-family: "Abel", sans-serif;
   @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
   font-size: 15px;
-  line-height: 17px;
+  line-height: 20px;
+  height: 100%;
 `;
 
 export const ProjectImage = styled.img`

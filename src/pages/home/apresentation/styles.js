@@ -55,15 +55,16 @@ export const Title = styled.h1`
   font-family: "Poppins", sans-serif;
   color: ${({ theme }) => theme.colors.title};
   font-size: 50px;
-  max-width: 350px;
+  max-width: 450px;
   width: 100%;
+  line-height: 50px;
 
   @media (max-width: 639px) {
     width: 100%;
-    max-width: 450px;
-    max-width: none;
+
     text-align: center;
     margin: 0 auto;
+    font-size: 40px;
   }
 `;
 
@@ -74,6 +75,8 @@ export const Subtitle = styled.p`
   width: 450px;
   font-size: 17px;
   margin-bottom: 10px;
+  line-height: 20px;
+
   @media (max-width: 639px) {
     width: 100%;
   }

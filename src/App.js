@@ -1,20 +1,16 @@
-import React, { useState } from "react";
-import GlobalStyle from "./styles/globalStyle";
-import Home from "./pages/home";
+import React from "react";
 import { ThemeProvider } from "styled-components";
-import { lightTheme, darkTheme } from "./styles/Theme";
+
+import Home from "./pages/home";
+
+import GlobalStyle from "./styles/reset";
+import { darkTheme } from "./styles/Theme";
 
 function App() {
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
-
-  const toggleTheme = () => {
-    setIsDarkTheme(!isDarkTheme);
-  };
-
   return (
-    <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
+    <ThemeProvider theme={darkTheme}>
       <GlobalStyle />
-      <Home toggleTheme={toggleTheme} />
+      <Home />
     </ThemeProvider>
   );
 }

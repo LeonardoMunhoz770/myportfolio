@@ -1,4 +1,6 @@
 import React from "react";
+import { useTheme } from "styled-components";
+
 import {
   Container,
   Content,
@@ -15,16 +17,13 @@ import {
   TitleQuality,
 } from "./styles";
 
-import ImageLineOne from "../../../assets/lineTwo.webp";
-
 import {
   AiFillGithub,
   AiOutlineGlobal,
   AiOutlineConsoleSql,
 } from "react-icons/ai";
-
 import { BsPhoneFill, BsWrench, BsServer } from "react-icons/bs";
-import { useTheme } from "styled-components";
+import ImageLineOne from "../../../assets/lineTwo.webp";
 
 const Skills = () => {
   const theme = useTheme();
@@ -65,10 +64,9 @@ const Skills = () => {
               </ContentFigure>
               <TitleQuality>Versionamento de Git</TitleQuality>
               <Description>
-                Domínio dos principais comandos básicos do Git para criar
-                repositórios, alternar entre branches, verificar status, efetuar
-                commits, clonar repositórios, enviar modificações e sincronizar
-                com as atualizações do repositório.
+                Domino os comandos essenciais do Git para gerenciar
+                repositórios: criar, alternar branches, commitar, clonar, enviar
+                modificações e sincronizar.
               </Description>
             </Quality>
 
@@ -99,9 +97,9 @@ const Skills = () => {
               </ContentFigure>
               <TitleQuality>Servidor</TitleQuality>
               <Description>
-                Gerenciamento de backups, Active Directory, configurações
-                básicas de GPO, criação e edição de users. Conhecimentos nas
-                principais ferramentas de Remote Desktop.
+                Experiência em gerenciamento de backups, Active Directory, GPO
+                básicas, criação e edição de usuários, além de habilidades em
+                ferramentas de Remote Desktop.
               </Description>
             </Quality>
           </QualificationsWrapper>

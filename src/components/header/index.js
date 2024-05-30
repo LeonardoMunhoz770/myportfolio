@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   HeaderPage,
   Container,
@@ -9,9 +10,6 @@ import {
   Title,
 } from "./styles";
 
-import { AiFillBulb } from "react-icons/ai";
-import { useTheme } from "styled-components";
-
 const Header = ({ toggleTheme }) => {
   const handleNavClick = (event) => {
     event.preventDefault();
@@ -19,7 +17,6 @@ const Header = ({ toggleTheme }) => {
     const section = document.querySelector(sectionId);
     section.scrollIntoView({ behavior: "smooth" });
   };
-  const theme = useTheme();
 
   return (
     <HeaderPage>
@@ -44,12 +41,6 @@ const Header = ({ toggleTheme }) => {
             <Sections href="#contact" onClick={handleNavClick}>
               Contato
             </Sections>
-            <AiFillBulb
-              style={{ cursor: "pointer" }}
-              size={15}
-              color={theme.colors.title}
-              onClick={toggleTheme}
-            />
           </List>
         </Navigation>
       </Container>
