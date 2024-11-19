@@ -25,11 +25,12 @@ export const ContentTitle = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-bottom: 20px;
+
   @media (max-width: 639px) {
     justify-content: center;
     align-items: center;
   }
-  margin-bottom: 20px;
 `;
 
 export const Title = styled.h1`

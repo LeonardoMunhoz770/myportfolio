@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 export const darkTheme = {
   colors: {
     headerAndfooter: "#212336",
