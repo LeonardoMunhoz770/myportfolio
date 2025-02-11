@@ -13,9 +13,17 @@ import Projects from "../../../components/projects";
 import ymk from "../../../assets/ymk.webp";
 import singularRealty from "../../../assets/singularRealty.webp";
 import caioba from "../../../assets/caioba.webp";
+import estoqueImovel from "../../../assets/estoqueImovel.webp";
 
 const Portifolio = () => {
   const arrayProjects = [
+    {
+      description:
+        "A Estoque Imóvel é um site de imóveis , desenvolvido com ReactJS e integrado a uma API de imóveis",
+      imageProject: estoqueImovel,
+      titleProject: "Estoque Imóvel",
+      url: "https://estoqueimovel.com.br/",
+    },
     {
       description:
         "O Singular Realty é um site de imóveis de alto padrão, desenvolvido com ReactJS e integrado a uma API de imóveis, oferecendo uma experiência moderna e atualizada para apresentação de propriedades de luxo.",
